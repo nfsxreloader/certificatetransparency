@@ -33,8 +33,6 @@ class MethodChannelCertificatetransparency
       if (!result['success']) {
         throw const CertificateTransparencyException();
       }
-    } else {
-      throw UnimplementedError('Not yet supported in this platform.');
     }
   }
 }
